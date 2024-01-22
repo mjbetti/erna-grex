@@ -1,7 +1,7 @@
 # erna-grex [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mjbetti/erna-grex/blob/master/LICENSE) 
 ## Introduction  
 
-This repository contains scripts used to run the model training and subsequent analyses described by Betti et al. in "Genetically regulated enhancer RNA expression is predictive of enhancer-gene contact frequency and reveals genetic mechanisms at trait-associated loci."
+This repository contains scripts used to run the model training and subsequent analyses described by Betti et al. in "Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at trait-associated loci."
 
 The repository is broken down into the following sub-folders:
 * ```grex_model_training```: contains scripts used to train the initial models of genetically regulated enhancer RNA (eRNA) expression (GREx) (**subfigure a**)
@@ -13,7 +13,7 @@ The repository is broken down into the following sub-folders:
 ![alt text](https://github.com/mjbetti/erna-grex/blob/main/FigAbs.png?raw=true)
 
 ## Citation 
-Betti, M.J., Aldrich, M.C., Lin, P., & Gamazon, E.R. (2023). *Genetically regulated enhancer RNA expression is predictive of enhancer-gene contact frequency and reveals genetic mechanisms at trait-associated loci*. doi:  [Preprint](url).
+Betti, M.J., Aldrich, M.C., Lin, P., & Gamazon, E.R. (2023). *Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at trait-associated loci*. doi:  [Preprint](url).
 
 Betti, M.J., Aldrich, M.C., & Gamazon, E.R. (2023). erna-grex datasets (Version 1). Zenodo. DOI
 
