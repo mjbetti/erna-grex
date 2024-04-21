@@ -10,7 +10,7 @@ The repository is broken down into the following sub-folders:
 * ```schizophrenia```: contains the scripts for running eRNA-based and gene-based TWAS of SCZ and testing the results using MR (**subfigure c and subfigure d**)
 * ```uk_biobank```: contains the scripts used to compile the eRNA-based TWAS results across traits in the U.K. Biobank (**subfigure e**)
 
-![alt text](https://github.com/mjbetti/erna-grex/blob/main/FigAbs.png?raw=true)
+![alt text](https://github.com/mjbetti/erna-grex/blob/main/Fig1.png?raw=true)
 
 ## Citation 
 Betti, M.J., Aldrich, M.C., Lin, P., & Gamazon, E.R. (2023). *Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at trait-associated loci*. doi:  [Preprint](url).
