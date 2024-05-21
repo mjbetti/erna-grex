@@ -13,9 +13,9 @@ The repository is broken down into the following sub-folders:
 ![alt text](https://github.com/mjbetti/erna-grex/blob/main/Fig1.png?raw=true)
 
 ## Citation 
-Betti, M.J., Aldrich, M.C., Lin, P., & Gamazon, E.R. (2024). *Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at trait-associated loci*. doi:  [Preprint](url).
+Betti, M.J., Aldrich, M.C., Lin, P., & Gamazon, E.R. (2024). *Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at trait-associated loci*. DOI:  [Preprint](url).
 
-Betti, M.J., Aldrich, M.C., & Gamazon, E.R. (2024). erna-grex datasets (Version 1). Zenodo. DOI
+Betti, M.J., Aldrich, M.C., & Gamazon, E.R. (2024). erna-grex datasets (Version 1). Zenodo. DOI: 10.5281/zenodo.11212496.
 
 For questions:  michael.j.betti@vanderbilt.edu, eric.gamazon@vumc.org  
 
