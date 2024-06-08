@@ -1,7 +1,7 @@
 # erna-grex [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mjbetti/erna-grex/blob/master/LICENSE) 
 ## Introduction  
 
-This repository contains scripts used to run the model training and subsequent analyses described by Betti et al. in "Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at trait-associated loci."
+This repository contains scripts used to run the model training and subsequent analyses described by Betti et al. in "Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at complex trait-associated loci."
 
 The repository is broken down into the following sub-folders:
 * ```grex_model_training```: contains scripts used to train the initial models of genetically regulated enhancer RNA (eRNA) expression (GREx) (**subfigure a**)
