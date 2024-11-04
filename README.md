@@ -4,9 +4,16 @@
 This repository contains scripts used to run the model training and subsequent analyses described by Betti et al. in "Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at complex trait-associated loci."
 
 The repository is broken down into the following sub-folders:
-* ```grex_model_training```: contains scripts used to train the initial models of genetically regulated enhancer RNA (eRNA) expression (GREx) (**subfigure a**)
-* ```contact_frequency_model_training```: contains Jupyter notebooks used to train the deep learning-based models of 3D contact frequency using eRNA and gene GREx in BioVU (**subfigure b**)
-* ```trained_contact_models```: contains the optimal deep learning-based models of contact frequency trained in whole blood and cerebellum, respectively, in HDF5 format (**subfigure b**)
+* ```grex_model_training```: Contains scripts used to train the initial models of genetically regulated enhancer RNA (eRNA) expression (GREx) (**subfigure a**)
+* ```contact_frequency_model_training```: Contains Jupyter notebooks used to train and evaluate the models of 3D contact frequency (**subfigure b**):
+  * ```sklearn_regressions.ipynb```: Fitting linear and non-linear regression models of contact frequency
+  * ```cerebellum_mse_biovu_erna_regression_contacts_pytorch.ipynb```: MLP training using eRNA and canonical gene GREx in BioVU for cerebellum (using R2 as the selection metric)
+  * ```whole_blood_mse_biovu_erna_regression_contacts_pytorch.ipynb```: MLP training using eRNA and canonical gene GREx in BioVU for whole blood (using R2 as the selection metric)
+  * ```rmse_cerebellum_mse_biovu_erna_regression_contacts_pytorch.ipynb```: MLP training using eRNA and canonical gene GREx in BioVU for cerebellum (using RMSE as the selection metric)
+  * ```rmse_whole_blood_mse_biovu_erna_regression_contacts_pytorch.ipynb```: MLP training using eRNA and canonical gene GREx in BioVU for whole blood (using RMSE as the selection metric)
+  * ```k562_nuclear_run_on_mse_erna_regression_contacts_pytorch.ipynb```: MLP training using eRNA and canonical gene expression from nuclear run-on assays in K562
+  * ```erna_pred_contact_freq_vs_distance_correlation.ipynb```: Evaluating correlation between contact frequency (predicted and observed) and distance
+* ```trained_contact_models```: Contains the optimal deep learning-based models of contact frequency in HDF5 format (**subfigure b**):
 * ```schizophrenia```: contains the scripts for running eRNA-based and gene-based TWAS of SCZ and testing the results using MR (**subfigure c and subfigure d**)
 * ```uk_biobank```: contains the scripts used to compile the eRNA-based TWAS results across traits in the U.K. Biobank (**subfigure e**)
 
