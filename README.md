@@ -17,7 +17,7 @@ The repository is broken down into the following sub-folders:
 * ```trained_contact_models```: Contains the optimal deep learning-based models of contact frequency in HDF5 format (**subfigure b**):
 * ```schizophrenia```: contains the scripts for running eRNA-based and gene-based TWAS of SCZ and testing the results using MR (**subfigure c and subfigure d**)
 * ```uk_biobank```: contains the scripts used to compile the eRNA-based TWAS results across traits in the U.K. Biobank (**subfigure e**)
-* ```colocalization```: Contains scripts used to perform colocalization analysis for eRNA and canonical gene eQTLs
+* ```colocalization```: Contains scripts used to perform colocalization analysis for eRNA and canonical gene eQTLs (**subfigure f**)
 
 ![alt text](https://github.com/mjbetti/erna-grex/blob/main/Fig1.png?raw=true)
 
