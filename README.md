@@ -5,6 +5,7 @@ This repository contains scripts used to run the model training and subsequent a
 
 The repository is broken down into the following sub-folders:
 * ```grex_model_training```: Contains scripts used to train the initial models of genetically regulated enhancer RNA (eRNA) expression (GReX) (**subfigure a**)
+* ```hic_processing```: Contains scripts used to identify enhancer-enhancer and enhancer-gene contacts in K562 and astrocytes of the cerebellum
 * ```contact_frequency_model_training```: Contains Jupyter notebooks used to train and evaluate the models of 3D contact frequency (**subfigure b**):
   * ```sklearn_regressions.ipynb```: Fitting linear and non-linear regression models of contact frequency
   * ```cerebellum_mse_biovu_erna_regression_contacts_pytorch.ipynb```: MLP training using eRNA and canonical gene GReX in BioVU for cerebellum (using R2 as the selection metric)
@@ -16,6 +17,7 @@ The repository is broken down into the following sub-folders:
 * ```trained_contact_models```: Contains the optimal deep learning-based models of contact frequency in HDF5 format (**subfigure b**):
 * ```schizophrenia```: contains the scripts for running eRNA-based and gene-based TWAS of SCZ and testing the results using MR (**subfigure c and subfigure d**)
 * ```uk_biobank```: contains the scripts used to compile the eRNA-based TWAS results across traits in the U.K. Biobank (**subfigure e**)
+* ```colocalization```: Contains scripts used to perform colocalization analysis for eRNA and canonical gene eQTLs
 
 ![alt text](https://github.com/mjbetti/erna-grex/blob/main/Fig1.png?raw=true)
 
