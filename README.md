@@ -29,7 +29,7 @@ Betti, M.J. & Gamazon, E.R. (2024). eRNA GReX (Version v2). Zenodo. DOI: https:
 For questions:  michael.j.betti@vanderbilt.edu, eric.gamazon@vumc.org  
 
 ## Data availability
-Trained GREx models, as well as all other non-protected data used for model training and other analyses described in the paper can be downloaded from Zenodo at [(DOI)](https://doi.org/10.5281/zenodo.14027849).
+Trained GREx models, as well as all other non-protected data used for model training and other analyses described in the paper can be downloaded from Zenodo at [DOI](https://doi.org/10.5281/zenodo.14027849).
 
 ## Dependencies
 * For a list of dependencies required to run GREx imputation using the PrediXcan framework, see https://github.com/hakyimlab/MetaXcan.
