@@ -22,14 +22,14 @@ The repository is broken down into the following sub-folders:
 ![alt text](https://github.com/mjbetti/erna-grex/blob/main/Fig1.png?raw=true)
 
 ## Citation 
-Betti, M.J., Aldrich, M.C., Lin, P., & Gamazon, E.R. (2024). *Genetically regulated enhancer RNA expression predicts enhancer-promoter contact frequency and reveals genetic mechanisms at trait-associated loci*. DOI:  [Preprint](url).
+Betti, M.J., Aldrich, M.C., Lin, P., & Gamazon, E.R. (2024). Genetically regulated eRNA expression predicts chromatin contact frequency and reveals genetic mechanisms at GWAS loci. *Nature Communications* (2025).
 
-Betti, M.J., Aldrich, M.C., & Gamazon, E.R. (2024). erna-grex datasets (Version 1). Zenodo. DOI: 10.5281/zenodo.11212496.
+Betti, M.J. & Gamazon, E.R. (2024). eRNA GReX (Version v2). Zenodo. DOI: https://doi.org/10.5281/zenodo.14027849.
 
 For questions:  michael.j.betti@vanderbilt.edu, eric.gamazon@vumc.org  
 
 ## Data availability
-Trained GREx models, as well as all other non-protected data used for model training and other analyses described in the paper can be downloaded from Zenodo at (DOI).
+Trained GREx models, as well as all other non-protected data used for model training and other analyses described in the paper can be downloaded from Zenodo at [(DOI)](https://doi.org/10.5281/zenodo.14027849).
 
 ## Dependencies
 * For a list of dependencies required to run GREx imputation using the PrediXcan framework, see https://github.com/hakyimlab/MetaXcan.
