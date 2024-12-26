@@ -7,7 +7,7 @@ lifted_path <- "/home/bettimj/gamazon_rotation/eRNA_predixcan_models/gwas_sum_st
 #Open each of these files as data frames
 gwas_file <- fread(gwas_path, header = TRUE, quote = "", sep = "\t")
 gwas_df <- as.data.frame(gwas_file)
-gwas_df$varid <- paste(paste0("chr", gwas_df$CHR), gwas_df$BP, gwas_df$A2, gwas_df$A1, "b37", sep = "_")
+gwas_df$varid <- paste(paste0("chr", gwas_df$CHR), gwas_df$BP, gwas_df$A1, gwas_df$A2, "b37", sep = "_")
 
 lifted_file <- fread(lifted_path, header = FALSE, quote = "", sep = "\t")
 lifted_df <- as.data.frame(lifted_file)
