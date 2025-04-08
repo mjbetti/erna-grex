@@ -22,7 +22,7 @@ The repository is broken down into the following sub-folders:
 ![alt text](https://github.com/mjbetti/erna-grex/blob/main/Fig1.png?raw=true)
 
 ## Citation 
-Betti, M.J., Aldrich, M.C., Lin, P., & Gamazon, E.R. (2024). Genetically regulated eRNA expression predicts chromatin contact frequency and reveals genetic mechanisms at GWAS loci. *Nature Communications* (2025).
+Betti, M.J., Lin, P., Aldrich, M.C. & Gamazon E.R. Genetically regulated eRNA expression predicts chromatin contact frequency and reveals genetic mechanisms at GWAS loci. Nat Commun 16, 3193 (2025). https://doi.org/10.1038/s41467-025-58023-x
 
 Betti, M.J. & Gamazon, E.R. (2024). eRNA GReX (Version v2). Zenodo. DOI: https://doi.org/10.5281/zenodo.14027849.
 
